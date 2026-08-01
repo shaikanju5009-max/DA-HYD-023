@@ -92,9 +92,9 @@ if age>0:
         print("you need to wait for more",age,"years")
 else:
     print("you have entered -ve value/zero enter only +ve ")
-'''
+
 marks=int(input("enter the marks:"))
-if marks>=0 and  100:
+if marks>=0 and  marks<100:
     if marks >=90:
         print("your grade is  A")
     else:
@@ -110,7 +110,23 @@ if marks>=0 and  100:
                  print("FAILED")
 else:
     (" -ve is not allowed and not more than 100 ")
-                
+  '''  
+marks=int(input("enter the marks:"))
+if marks>0 and marks <=100:
+    if marks>=90:
+        print("grade A")
+    if marks >=80 and marks <=89:
+        print("grade B")
+    if marks >=70 and marks<=79:
+        print("grade C")
+    if marks <=60 and marks <=69:
+        print("grade D")
+    if marks <60:
+        print(" your FAILED")
+else:
+    print("-ve not allowed and not more than 100")
+    
+    
                 
          
 
