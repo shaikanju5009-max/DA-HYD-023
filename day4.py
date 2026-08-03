@@ -125,6 +125,7 @@ if marks>0 and marks <=100:
         print(" your FAILED")
 else:
     print("-ve not allowed and not more than 100")
+    #done for the day
     
     
                 
