@@ -92,7 +92,7 @@ print(names)'''
 #task-->list into sequence
 data=['anjum','data','analysis','python']
 for i in range(len(data)):
-    print(f'{i}={data[i]}')
+    print(i,':',data[i])
 
 
 
