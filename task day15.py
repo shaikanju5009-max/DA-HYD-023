@@ -54,6 +54,7 @@ print("Orginal list:",num)
 print("backup list:",backup)
 '''
 #unique name manager
+'''
 names=["Asha","Rahul","Asha","John","Rahul"]
 a=set(names)
 print(a)
@@ -69,6 +70,72 @@ print("after discarding david:",a)
 print("Final unique names:")
 for i in a:
     print(i)
+    '''
+#course student comparision
+python_students={'Asha','Rahul','John','Meera'}
+da_students={'Rahul','Meera','Arun'}
+print("python students:",python_students)
+print("DA students:",da_students)
+all_students=python_students | da_students
+print("union:",all_students)
+both_course=python_students & da_students
+print("intersection:",both_course)
+only_python=python_students - da_students
+print("differnce:",only_python)
+only_one=python_students ^ da_students
+print("symmetric diffrence:",only_one)
+is_subset=da_students.issubset(python_students)
+print("subset:",is_subset)
+superset=python_students.issuperset(da_students)
+print("superset:",superset)
+disjoint=python_students.isdisjoint(da_students)
+print("disjoint:",disjoint)
+print("students in python:")
+for student in python_students:
+    print("-",student)
+print("students in DA:")
+for student in da_students:
+    print("-",student)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
